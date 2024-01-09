@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+}
+
+.caixa{
+   background-color: #8FBC8F;
+   width: 50%;
+}
+
+.caixa :hover{
+    background-color: #556B2F;
+    transition: background-color 0.3s ease-in-out
+}
+
+.imageSlider {
+  float: right;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+}
+
+.imageSlider img {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.imageSlider.active {
+  opacity: 1;
+}
+
+aside{
+  position: relative;
+  float: right;
+  bottom: 0px;
+  width: 50%;
+}
+
+h2{
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#noticias{
+    background-color: #8FBC8F;
+    float: left;
+    width: 47%;
+    margin-top: 330px;
+}
+
+footer{
+    background-color: #556B2F;
+    text-decoration: none;
+    margin-top: 1030px;
+}
+
+header {
+    /* Estilo para o elemento header */
+    background: var(--cor-fundo);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /* Alinhando os itens no centro do Header */
+    width: 100%;
+    /* Largura fixa de 1550px */
+    height: auto;
+    /* Altura fixa de 150px */
+    padding: 9px;
+    font-size: 15px;
+    /* Tamanho da fonte é 0.8em */
+  }
+  
+.dp-menu{
+    width: 1480px;
+  }
+  
+  
+  :root {
+    /* Definição de variáveis CSS na pseudo-classe :root */
+    --cor-fundo: rgb(0,128,0);
+    /* Variável para a cor de fundo */
+    --cor-hover: rgb(0,0,0);
+    /* Variável para a cor quando hover */
+    --cor-primaria: rgb(0, 0, 0);
+    /* Variável para a cor primária (preta) */
+  }
+  
+  .dp-menu ul {
+    /* Estilo para listas não ordenadas dentro de elementos com a classe dp-menu */
+    list-style-type: none;
+    /* Remove os marcadores de lista padrão */
+    padding: 0;
+    /* Remove o preenchimento da lista */
+    margin: 0;
+    /* Remove a margem da lista */
+  }
+  
+  .dp-menu ul {
+    /* Estilo para listas não ordenadas dentro de elementos com a classe dp-menu */
+    background-color: var(--cor-fundo);
+    position: relative;
+    /* Define a cor de fundo usando a variável cor-fundo */
+  }
+  
+  .dp-menu ul li {
+    /* Estilo para os itens da lista dentro de elementos com a classe dp-menu */
+    display: inline;
+    /* Exibe os itens em linha */
+    position: relative;
+    /* Define a posição como relativa */
+    margin: 0;
+    /* Remove a margem */
+  }
+  
+  .dp-menu ul li a {
+    /* Estilo para os links dentro dos itens da lista */
+    color: var(--cor-primaria);
+    /* Define a cor do texto usando a variável cor-primaria */
+    text-decoration: none;
+    /* Remove a decoração de texto (sublinhado) */
+    display: inline-block;
+    /* Exibe os links em bloco inline */
+    padding: 10px;
+    /* Adiciona preenchimento de 10px */
+    transition: background .3s;
+    /* Efeito de transição de fundo de 0.3 segundos */
+    margin: 0;
+    /* Remove a margem */
+  }
+  
+  .dp-menu ul li a:hover {
+    /* Estilo quando hover nos links dentro dos itens da lista */
+    text-decoration: none;
+    color: 	#A9A9A9;
+    box-shadow: 0.5s;
+    /* Define a cor de fundo usando a variável cor-hover */
+  }
+  
+  .dp-menu ul ul {
+    /* Estilo para sublistas não ordenadas */
+    display: none;
+    /* Inicialmente oculta as sublistas */
+    left: 0;
+    /* Define a posição à esquerda como 0 */
+    position: absolute;
+    /* Define a posição como absoluta */
+  }
+  
+  .dp-menu ul li:hover ul {
+    /* Mostra as sublistas quando hover nos itens da lista */
+    display: block;
+    /* Exibe as sublistas */
+  }
+  
+  .dp-menu ul ul {
+    /* Estilo para sublistas não ordenadas */
+    width: 150px;
+    /* Largura das sublistas de 150px */
+  }
+  
+  .dp-menu ul ul li a {
+    /* Estilo para links dentro das sublistas */
+    display: block;
+    /* Exibe os links em bloco */
+  }
+
+.imagem{
+  top: 0px;
+  width: 20%;
+}
